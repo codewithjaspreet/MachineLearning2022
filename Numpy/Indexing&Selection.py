@@ -35,3 +35,5 @@ mp = np.arange(1, 11)
 
 print(mp)
 print(mp[mp > 4])
+
+print(len(mp))
