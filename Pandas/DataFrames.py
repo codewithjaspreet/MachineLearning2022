@@ -25,3 +25,6 @@ print(df1.head(4))  # head for some starting rows
 print(df1.tail(4))  # last rows
 
 print(df1.info())  # all about the dataframe
+
+print(df1.describe())
+print(df1.describe().transpose())
