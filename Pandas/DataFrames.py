@@ -17,7 +17,11 @@ print(df)
 print(df.info())
 
 # read database from csv file
-df = pd.read_csv('winequality-red.csv')
+df1 = pd.read_csv('winequality-red.csv')
 
+print(df1.columns)  # no of columns
+print(df1.index)  # all columns info
+print(df1.head(4))  # head for some starting rows
+print(df1.tail(4))  # last rows
 
-
+print(df1.info())  # all about the dataframe
