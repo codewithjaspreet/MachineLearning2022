@@ -8,6 +8,7 @@ df = pd.DataFrame({'Weight': [45, 88, 56, 15, 71],
 # Create the index
 index_ = ['Row_1', 'Row_2', 'Row_3', 'Row_4', 'Row_5']
 
+# df.ioc works on index based
 # Set the index
 df.index = index_
 
@@ -21,3 +22,10 @@ print(result)
 
 print(df.loc[:, ['Weight', 'Age']])
 # use DataFrame.loc attribute to return the values present in the ‘Weight’ and ‘Age’ column of the Dataframe.
+
+print(df.drop('Row_1', axis=0))
+print(df.iloc[2 :])
+
+# add new row
+one_row = df.iloc[0]
+print(df.append(one_row))
