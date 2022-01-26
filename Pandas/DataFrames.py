@@ -17,7 +17,7 @@ print(df)
 print(df.info())
 
 # read database from csv file
-df1 = pd.read_csv('winequality-red.csv')
+df1 = pd.read_csv('../winequality-red.csv')
 
 print(df1.columns)  # no of columns
 print(df1.index)  # all columns info
@@ -28,3 +28,4 @@ print(df1.info())  # all about the dataframe
 
 print(df1.describe())
 print(df1.describe().transpose())
+
