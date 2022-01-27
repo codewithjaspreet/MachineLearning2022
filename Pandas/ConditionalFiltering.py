@@ -22,6 +22,6 @@ print(df[(df['Year'] > 1868) & (df['Pop'] > 100)])
 options = [20.5 , 1.22]
 
 print(df[df['GDP'].isin(options)])
-# isin method faster way of checking two or more conditions
+# is in method faster way of checking two or more conditions
 
 
