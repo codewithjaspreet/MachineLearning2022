@@ -1,6 +1,5 @@
 import numpy as np
 import matplotlib.pyplot as plt
-
 x = np.linspace(0, 11, 10)
 
 fig = plt.figure()
